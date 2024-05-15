@@ -1,4 +1,6 @@
 ### IntelliJ IDEA ###
+idea/
+Estrutura sequencial.iml/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
