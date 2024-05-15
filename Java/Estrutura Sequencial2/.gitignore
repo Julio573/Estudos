@@ -1,9 +1,8 @@
 .idea/
-Estrutura Sequencial2.iml/
-
+Estrutura Sequencial2.iml
 ### IntelliJ IDEA ###
-idea/
-Estrutura Sequencial2.iml/
+.idea/
+Estrutura Sequencial2.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
