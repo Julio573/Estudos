@@ -14,11 +14,12 @@ public class Exercicio04 {
 
         if (hora_Inicial < hora_Final) {
             duracao = hora_Final - hora_Inicial;
-            System.out.println("A duração é de " + duracao + " horas.");
         } else {
             duracao = 24 - hora_Inicial + hora_Final;
-            System.out.println("A duração é de " + duracao + " horas.");
         }
+
+        System.out.println("A duração é de " + duracao + " horas.");
+
         scan.close();
     }
 }
