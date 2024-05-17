@@ -28,5 +28,7 @@ public class Exercicio05 {
         }
 
         System.out.printf("Total: R$%.2f%n", total);
+        scan.close();
+        
     }
 }
