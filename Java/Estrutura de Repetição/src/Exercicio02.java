@@ -10,7 +10,8 @@ public class Exercicio02 {
         System.out.print("Coordenada Y: ");
         int Y = scan.nextInt();
 
-        while (X != 0 || Y != 0) {
+        while (X != 0 && Y != 0) {
+
             if (X > 0 && Y > 0) {
                 System.out.println("Primeiro");
             } else if (X < 0 && Y > 0) {
@@ -21,6 +22,10 @@ public class Exercicio02 {
                 System.out.println("Quarto");
             }
 
+            System.out.print("Insira novamente a coordenada X: ");
+            X = scan.nextInt();
+            System.out.print("Insira novamente a coordenada Y: ");
+            Y = scan.nextInt();
         }
         scan.close();
     }
